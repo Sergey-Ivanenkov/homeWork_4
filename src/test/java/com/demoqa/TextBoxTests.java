@@ -62,8 +62,6 @@ public class TextBoxTests {
         $(".table-responsive").shouldHave(text("2022-08-11 16.22.46.jpg"));
         $(".table-responsive").shouldHave(text("Moscow 101 dom 110"));
         $(".table-responsive").shouldHave(text("Uttar Pradesh Lucknow"));
-
-        $("#closeLargeModal").click();
     }
 }
 

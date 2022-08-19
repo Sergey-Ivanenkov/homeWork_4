@@ -146,8 +146,8 @@ public class PracticeFormPage {
     }
 
 
-    public PracticeFormPage checkResult(String key, String value) {
-        resultsModal.checkResult(key, value);
+    public PracticeFormPage results(String key, String value) {
+        resultsModal.results(key, value);
 
         return this;
     }

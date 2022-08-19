@@ -16,7 +16,7 @@ public class ResultsModal {
         return this;
     }
 
-    public ResultsModal checkResult(String key, String value) {
+    public ResultsModal results(String key, String value) {
         $(".table-responsive table").$(byText(key))
                 .parent().shouldHave(text(value));
 

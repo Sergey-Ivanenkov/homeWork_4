@@ -3,13 +3,14 @@ package com.demoqa.pages.components;
 import com.demoqa.tests.TestData;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.demoqa.tests.TestData.*;
 
 public class CalendarComponent {
-    public CalendarComponent setDate(String month, String year) {
+    public CalendarComponent setDate(String day, String month, String year) {
         $("#dateOfBirthInput").click();
         $(".react-datepicker__year-select").selectOption(year);
         $(".react-datepicker__month-select").selectOption(month);
-        $(".react-datepicker__day--0" + TestData.birthDay + ":not(.react-datepicker__day--outside-month)").click();
+        $(".react-datepicker__day--0" + day + ":not(.react-datepicker__day--outside-month)").click();
 
         return this;
     }

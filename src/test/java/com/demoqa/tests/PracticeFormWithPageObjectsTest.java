@@ -7,7 +7,6 @@ import static java.lang.String.format;
 
 public class PracticeFormWithPageObjectsTest extends TestBase {
 
-
     @Test
     void fillFromTest() {
         practiceFormPage.openPage()

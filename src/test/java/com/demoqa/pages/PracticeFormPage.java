@@ -90,7 +90,7 @@ public class PracticeFormPage {
 
     public PracticeFormPage setBirthDate(String day, String month, String year) {
         $("#dateOfBirthInput").click();
-        calendarComponent.setDate(day, month, year);
+        calendarComponent.setDate(month, year);
 
         return this;
     }

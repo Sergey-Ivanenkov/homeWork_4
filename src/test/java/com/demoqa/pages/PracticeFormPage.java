@@ -40,11 +40,11 @@ public class PracticeFormPage {
         return this;
     }
 
-    public PracticeFormPage clearFirstName(String value) {
-        firstNameInput.clear();
-
-        return this;
-    }
+//    public PracticeFormPage clearFirstName(String value) {
+//        firstNameInput.clear();
+//
+//        return this;
+//    }
 
     public PracticeFormPage setLastName(String value) {
         lastNameInput.setValue(value);
@@ -52,11 +52,11 @@ public class PracticeFormPage {
         return this;
     }
 
-    public PracticeFormPage clearLastName(String value) {
-        lastNameInput.clear();
-
-        return this;
-    }
+//    public PracticeFormPage clearLastName(String value) {
+//        lastNameInput.clear();
+//
+//        return this;
+//    }
 
     public PracticeFormPage setEmail(String value) {
         emailInput.setValue(value);
@@ -64,11 +64,11 @@ public class PracticeFormPage {
         return this;
     }
 
-    public PracticeFormPage clearEmail(String value) {
-        emailInput.clear();
-
-        return this;
-    }
+//    public PracticeFormPage clearEmail(String value) {
+//        emailInput.clear();
+//
+//        return this;
+//    }
 
     public PracticeFormPage setGender(String value) {
         $("#genterWrapper").$(byText(value)).click();
@@ -82,11 +82,11 @@ public class PracticeFormPage {
         return this;
     }
 
-    public PracticeFormPage clearPhoneNumber(String value) {
-        phoneNumberInput.clear();
-
-        return this;
-    }
+//    public PracticeFormPage clearPhoneNumber(String value) {
+//        phoneNumberInput.clear();
+//
+//        return this;
+//    }
 
     public PracticeFormPage setBirthDate(String day, String month, String year) {
         $("#dateOfBirthInput").click();
@@ -120,11 +120,11 @@ public class PracticeFormPage {
         return this;
     }
 
-    public PracticeFormPage clearCurrentAddress(String value) {
-        currentAddressInput.clear();
-
-        return this;
-    }
+//    public PracticeFormPage clearCurrentAddress(String value) {
+//        currentAddressInput.clear();
+//
+//        return this;
+//    }
 
     public PracticeFormPage setStateAndCity(String State, String City) {
         stateAndCityComponent.setStateAndCity(State, City);

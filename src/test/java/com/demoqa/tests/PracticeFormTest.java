@@ -2,6 +2,7 @@ package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
@@ -21,6 +22,7 @@ public class PracticeFormTest {
     }
 
     @Test
+    @Disabled
     void fillFromTest() {
         open( "/automation-practice-form");
         $("#firstName").val("Sergey");

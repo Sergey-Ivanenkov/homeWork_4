@@ -1,6 +1,7 @@
 package com.demoqa.tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.demoqa.tests.TestData.*;
@@ -10,6 +11,7 @@ import static java.lang.String.format;
 public class PracticeFormWithPageObjectsTest extends TestBase {
 
     @Test
+    @Tag("properties")
     @DisplayName("Проверка формы регистрации")
     void fillFromTest() {
         step("Открываем форму регистрации", () -> {
